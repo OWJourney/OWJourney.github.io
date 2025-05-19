@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16;
+    text-align: center;
+}
+
+body {
+    background-color:rgb(57, 169, 219);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+p {
+    font-size: 1.25rem;
+}
+
+section {
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 40px;
+    margin: 2% auto;
+    height: 55vh;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.button, .button-one, 
+.button-two, .button-three,
+.button-four {
+    display: flex;
+    border: 1px black solid;
+    border-radius: 5px;
+    width: 300px;
+    justify-content: center;
+    padding: 0.625rem 3rem;
+    margin: 1.5rem auto;
+    text-decoration: none;
+    color: black;
+    background-color: rgb(90, 200, 237);
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.10s linear;
+}
+
+.button:hover, .button-one:hover, 
+.button-two:hover, .button-three:hover,
+.button-four:hover {
+    background-color:rgb(234, 148, 10)
+}
+
+input {
+    width: 80%;
+    height: 3vh;
+    text-align: center;
+    font-size: 1rem;
+}
+
+.name, .name-comment, .favorite-food, 
+.favorite-food-comment, .how-many-food, 
+.how-many-food-comment, .frog, .security-question, .credit-card {
+    line-height: 3;
+    display: none;
+}
