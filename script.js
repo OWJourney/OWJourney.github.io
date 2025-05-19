@@ -38,7 +38,7 @@ buttonTwo.onclick = function() {
     nameComment.style.display = 'flex';
     document.title = `${nameInput}のこと、教えてよ！`;
     pNameComment.innerHTML = `なるほど・・・${nameInput}って言うのね！ホームページのタイトルにメモしておくわね！上を見てみて！`;
-    setTimeout(nextOne, 100);
+    setTimeout(nextOne, 5000);
     }
 }
 
@@ -58,7 +58,7 @@ buttonThree.onclick = function() {
     favoriteFood.style.display = 'none';
     favoriteFoodComment.style.display = 'flex';
     favoriteFoodCommentP.innerHTML = `${foodInput}が好きなんだ・・・珍しいね。`;
-    setTimeout(nextTwo, 100);
+    setTimeout(nextTwo, 5000);
     }
 }
 
@@ -80,13 +80,13 @@ buttonFour.onclick = function() {
     } else {
         howManyFoodCommentP.innerHTML = `え・・・？食べすぎじゃない？`;
     }
-    setTimeout(nextThree, 100);
+    setTimeout(nextThree, 5000);
 }
 
 function nextThree() {
     howManyFoodComment.style.display = 'none';
     frog.style.display = 'flex';
-    setTimeout(nextFour, 100);
+    setTimeout(nextFour, 7000);
 }
 
 function nextFour() {
@@ -114,8 +114,10 @@ function nextFive() {
         }  
     }     
     if (allFilled === true) {
+        let nameInput = document.getElementById('username').value;
         securityQuestion.style.display = 'none';
         creditCard.style.display = 'flex';
+        document.title = `${nameInput}の情報、盗らせてよ！`;
     }
 }
 
