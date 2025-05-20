@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="/Givemeinfo/givemeinfostyle.css">
+        <title>あなたのこと、教えてよ！</title> 
+    </head>
+
+    <body>
+        <section class="intro"> 
+            <h2>あなたのこと教えて欲しいな！</h2>
+            <p class="main-text-desktop"><em>This website is made for fun. Please do not actually input any personal details or information.
+            <br>このサイトは娯楽を目的としています。実際の個人情報を入力しないでください。</em></p>
+            <p class="main-text-smartphone"><em>This website is made for fun.<br> Please do not actually input any personal details or information.
+            <br>このサイトは娯楽を目的としています。<br>実際の個人情報を入力しないでください。</em></p>
+            <button class="button-one">スタート！</button>
+        </section>
+
+        <section class="name">
+            <h2>まずはあなたの名前を教えてくれるかな？</h2>
+            <input type="text" name="username" id="username" placeholder="ここに名前を入力してね！" autocomplete="off">
+            <button class="button-two">送信！</button>   
+        </section>
+
+        <section class="name-comment">
+            <p class="p-name-comment main-text-desktop">なるほど・・・[userinput]って言うのね！ホームページのタイトルにメモしておくわね！上を見てみて！</p> 
+            <p class="p-name-comment main-text-smartphone">なるほど・・・[userinput]って言うのね！タブのタイトルにメモしておくわね！タブ一覧を開いてみて！</p> 
+        </section>
+
+        <section class="favorite-food">
+            <h2 class="favorite-food-h2">次にあなたの好きな食べ物を教えてくれる？</h2>
+            <input type="text" name="food" id="food" placeholder="ここに好きな食べ物の名前を入力してね！" autocomplete="off">
+            <button class="button-three">送信！</button>
+        </section>
+
+        <section class="favorite-food-comment">
+            <p class="favorite-food-comment-p">[userinput]が好きなんだ・・・珍しいね。</p>
+        </section>
+
+        <section class="how-many-food">
+            <h2 class="how-many-food-h2 main-text-desktop">じゃあさじゃあさ、その[userinput]って食べ物、一日に何個食べられる？</h2>
+            <h2 class="how-many-food-h2 main-text-smartphone">じゃあさじゃあさ、その[userinput]って食べ物、一日に何個食べられる？</h2>
+            <input type="number" name="food-amount" id="food-amount" step="1" min="0" placeholder="ここに数字を入力してね（小数点は入れないでね）！" autocomplete="off">
+            <button class="button-four">送信！</button>
+        </section>
+            
+        <section class="how-many-food-comment">
+            <p class="how-many-food-comment-p">え・・・？食べすぎじゃない？</p>
+        </section>
+
+        <section class="frog">
+            <p>あなた変。カエル化しちゃった＞＜</p>
+            <p>最後にこれらだけ質問させて、終わりにしましょ。<br>質問の意図は深く考えちゃだめだからねっ。</p>
+        </section>
+        
+        <section class="security-question">
+            <label for="fav-color">好きな色は？</label>
+            <input type="text" name="fav-color" id="fav-color" autocomplete="off">
+            <br>
+            <label for="pet-name">ペットの名前は？</label>
+            <input type="text" name="pet-name" id="pet-name" autocomplete="off">
+            <br>
+            <label for="grow-street">産まれた町の名前は？</label>
+            <input type="text" name="grow-street" id="grow-street" autocomplete="off">
+            <br>
+            <label for="fav-game">一番好きなゲームは？</label>
+            <input type="text" name="fav-game" id="fav-game" autocomplete="off">
+            <br>
+        </section>
+
+        <section class="credit-card">
+            <h2>最後にクレジットカードの情報を教えて？</h2>
+            <input type="password" name="credit-card" id="credit-card">
+        </section>
+        
+        <div class="advertisement">
+            <div class="yanad">
+                <span class="advertisement-x">x</span>
+                <img id=yan-advertisement-img src="/Pictures/yanad.jpg">
+            </div>
+        </div>
+        
+        <script src="/Givemeinfo/givemeinfoscript.js"></script>
+    </body>
+    
+</html>
