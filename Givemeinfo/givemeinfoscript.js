@@ -148,7 +148,7 @@ let cardInput = document.getElementById('credit-card');
 cardInput.addEventListener('click', nextSix);
 
 function nextSix() {
-    window.location = "givemeinfocrash.html";
+    window.location = "Givemeinfo/givemeinfocrash.html";
 }
 
 // Stupid advertisement that re-pops in 2s even if you pressed the X button.
