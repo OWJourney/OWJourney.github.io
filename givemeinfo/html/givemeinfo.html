@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="/givemeinfo/css/givemeinfostyle.css">
+        <title id="title">あなたのこと、教えてよ！</title> 
+    </head>
+
+    <body>
+        <nav class="nav-bar">
+            <p><a href="#" id="return">メインページに戻る</a></p>
+            <select name="language" id="language-select">
+                <option value="japanese">日本語</option>
+                <option value="english">English</option>
+            </select>
+        </nav>
+
+        <section class="intro"> 
+            <h2 id="textone">あなたのこと教えて欲しいな！</h2>
+            <p id="texttwo"><em>このサイトは娯楽を目的としています。<br>個人情報を入力しないでください。</em></p>
+            <button class="button-one" id="submitone">スタート！</button>
+        </section>
+
+        <section class="name">
+            <h2 id="textthree">まずはあなたの名前を教えてくれるかな？</h2>
+            <input type="text" name="username" id="username" placeholder="名前を入力してね" autocomplete="off">
+            <button class="button-two" id="submittwo">送信！</button>   
+        </section>
+
+        <section class="name-comment">
+            <p class="p-name-comment main-text-desktop" id="textfourone">なるほど・・・[userinput]って言うのね！ホームページのタイトルにメモしておくわね！上を見てみて！</p> 
+            <p class="p-name-comment main-text-smartphone" id="textfourtwo">なるほど・・・[userinput]って言うのね！タブのタイトルにメモしておくわね！タブ一覧を開いてみて！</p> 
+        </section>
+
+        <section class="favorite-food">
+            <h2 class="favorite-food-h2" id="textfive">次にあなたの好きな食べ物を教えてくれる？</h2>
+            <input type="text" name="food" id="food" placeholder="食べ物の名前を入力してね" autocomplete="off">
+            <button class="button-three" id="submitthree">送信！</button>
+        </section>
+
+        <section class="favorite-food-comment">
+            <p class="favorite-food-comment-p" id="textsix">[userinput]が好きなんだ・・・珍しいね。</p>
+        </section>
+
+        <section class="how-many-food">
+            <h2 class="how-many-food-h2" id="textseven">じゃあさ、その[userinput]って食べ物、一日に何個食べられる？</h2>
+            <input type="number" name="food-amount" id="food-amount" step="1" min="0" placeholder="数字を入力してね（小数点なし）" autocomplete="off">
+            <button class="button-four" id="submitfour">送信！</button>
+        </section>
+            
+        <section class="how-many-food-comment">
+            <p class="how-many-food-comment-p" id="texteight">え・・・？食べすぎじゃない？</p>
+        </section>
+
+        <section class="frog">
+            <p id="textnine">変な人。カエル化しちゃった＞＜</p>
+            <p id="textten">最後にこれらだけ質問させて?<br>質問の意図は深く考えないでね。</p>
+        </section>
+        
+        <section class="security-question">
+            <label for="fav-color" id="labelone">好きな色は？</label>
+            <input type="text" name="fav-color" id="fav-color" autocomplete="off">
+            <br>
+            <label for="pet-name" id="labeltwo">ペットの名前は？</label>
+            <input type="text" name="pet-name" id="pet-name" autocomplete="off">
+            <br>
+            <label for="grow-street" id="labelthree">産まれた町の名前は？</label>
+            <input type="text" name="grow-street" id="grow-street" autocomplete="off">
+            <br>
+            <label for="fav-game" id="labelfour">一番好きなゲームは？</label>
+            <input type="text" name="fav-game" id="fav-game" autocomplete="off">
+            <br>
+        </section>
+
+        <section class="credit-card">
+            <h2 id="texteleven">最後にクレジットカードの情報を教えて？</h2>
+            <input type="password" name="credit-card" id="credit-card">
+        </section>
+        
+        <div class="advertisement">
+            <div class="yanad">
+                <span class="advertisement-x">x</span>
+                <img id=yan-advertisement-img src="/givemeinfo/assets/yanad.jpg" alt="advertisement">
+            </div>
+        </div>
+        
+        <script src="/givemeinfo/javascript/givemeinfoscript.js"></script>
+    </body>
+    
+</html>
