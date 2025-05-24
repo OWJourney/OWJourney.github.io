@@ -48,17 +48,3 @@ function peekaboo() {
     ad.classList.remove('hide');
     ad.classList.add('reappear');
 }
-
-
-/* 
-    for (let i = 0; i < arrJapanese.length; i++) {
-        setTimeout(function() {
-        crashText.textContent = arrJapanese[i];
-        }, i * 5000);
-    }
-    let img = document.getElementsByClassName('sitecrash')[0];
-    setTimeout(function() {
-        img.style.display = 'none';
-    }, arrJapanese.length * 5000);
-
-*/
