@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/static/css/main.a8e0a919.css",
+    "main.js": "/static/js/main.8343e279.js",
+    "static/media/ganesha.png": "/static/media/ganesha.b072b2f8c2d0180667a2.png",
+    "static/media/eggtart.png": "/static/media/eggtart.e1d15bbea6c9a68f7416.png",
+    "static/media/hidden.png": "/static/media/hidden.095bbf636ec2172faa51.png",
+    "static/media/map.png": "/static/media/map.029758e73bd9447aee1f.png",
+    "static/media/yancompany.jpg": "/static/media/yancompany.b3e641f600935e41b4b1.jpg",
+    "index.html": "/index.html",
+    "main.a8e0a919.css.map": "/static/css/main.a8e0a919.css.map",
+    "main.8343e279.js.map": "/static/js/main.8343e279.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a8e0a919.css",
+    "static/js/main.8343e279.js"
+  ]
+}
