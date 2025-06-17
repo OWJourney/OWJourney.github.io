@@ -1,18 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.a8e0a919.css",
-    "main.js": "/static/js/main.8343e279.js",
+    "main.css": "/static/css/main.80b331af.css",
+    "main.js": "/static/js/main.15c3b2dc.js",
+    "static/media/art.JPG": "/static/media/art.c2b07fbd6cebd08c6432.JPG",
+    "static/media/shark.JPG": "/static/media/shark.50c01ceb8689c332e9fb.JPG",
+    "static/media/o.JPG": "/static/media/o.0c3955f106717497d31c.JPG",
+    "static/media/penguin.JPG": "/static/media/penguin.302504bd5a6e058f28b6.JPG",
+    "static/media/cookie.JPG": "/static/media/cookie.aff3c55ee7e9b26bdae5.JPG",
     "static/media/ganesha.png": "/static/media/ganesha.b072b2f8c2d0180667a2.png",
     "static/media/eggtart.png": "/static/media/eggtart.e1d15bbea6c9a68f7416.png",
     "static/media/hidden.png": "/static/media/hidden.095bbf636ec2172faa51.png",
     "static/media/map.png": "/static/media/map.029758e73bd9447aee1f.png",
     "static/media/yancompany.jpg": "/static/media/yancompany.b3e641f600935e41b4b1.jpg",
     "index.html": "/index.html",
-    "main.a8e0a919.css.map": "/static/css/main.a8e0a919.css.map",
-    "main.8343e279.js.map": "/static/js/main.8343e279.js.map"
+    "main.80b331af.css.map": "/static/css/main.80b331af.css.map",
+    "main.15c3b2dc.js.map": "/static/js/main.15c3b2dc.js.map"
   },
   "entrypoints": [
-    "static/css/main.a8e0a919.css",
-    "static/js/main.8343e279.js"
+    "static/css/main.80b331af.css",
+    "static/js/main.15c3b2dc.js"
   ]
 }
