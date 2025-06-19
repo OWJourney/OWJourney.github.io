@@ -1,12 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.fa45c8b3.css",
-    "main.js": "/static/js/main.594766ec.js",
+    "main.css": "/static/css/main.82ae70d3.css",
+    "main.js": "/static/js/main.69795cff.js",
+    "static/media/jelly.png": "/static/media/jelly.59c9e5b4d06f809ca9d4.png",
     "static/media/art.JPG": "/static/media/art.c2b07fbd6cebd08c6432.JPG",
+    "static/media/ika.png": "/static/media/ika.f068fca26c73fb86853f.png",
+    "static/media/failure.png": "/static/media/failure.60cb4ebab0308cd51a4d.png",
     "static/media/shark.JPG": "/static/media/shark.50c01ceb8689c332e9fb.JPG",
     "static/media/o.JPG": "/static/media/o.0c3955f106717497d31c.JPG",
     "static/media/penguin.JPG": "/static/media/penguin.302504bd5a6e058f28b6.JPG",
     "static/media/cookie.JPG": "/static/media/cookie.aff3c55ee7e9b26bdae5.JPG",
+    "static/media/ume.png": "/static/media/ume.79e6183da5b33525b696.png",
+    "static/media/sushi.png": "/static/media/sushi.836dde0f388aa67a546e.png",
+    "static/media/donuts.png": "/static/media/donuts.9ccb3f14aa04d495717b.png",
+    "static/media/godiva.png": "/static/media/godiva.98d96f08a3633c6a9863.png",
     "static/media/ganesha.png": "/static/media/ganesha.b072b2f8c2d0180667a2.png",
     "static/media/eggtart.png": "/static/media/eggtart.e1d15bbea6c9a68f7416.png",
     "static/media/hidden.png": "/static/media/hidden.095bbf636ec2172faa51.png",
@@ -17,11 +24,11 @@
     "static/media/reallogo.png": "/static/media/reallogo.425d45ffb389b276fbd2.png",
     "static/media/givemeinfo.png": "/static/media/givemeinfo.7184b9f3ba915fd61f9a.png",
     "index.html": "/index.html",
-    "main.fa45c8b3.css.map": "/static/css/main.fa45c8b3.css.map",
-    "main.594766ec.js.map": "/static/js/main.594766ec.js.map"
+    "main.82ae70d3.css.map": "/static/css/main.82ae70d3.css.map",
+    "main.69795cff.js.map": "/static/js/main.69795cff.js.map"
   },
   "entrypoints": [
-    "static/css/main.fa45c8b3.css",
-    "static/js/main.594766ec.js"
+    "static/css/main.82ae70d3.css",
+    "static/js/main.69795cff.js"
   ]
 }
