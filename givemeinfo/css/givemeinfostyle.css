@@ -133,6 +133,10 @@ input {
     width: 350px;
 }
 
+#yan-advertisement-img {
+    cursor: pointer;
+}
+
 .advertisement-x {
     position: absolute; 
     top: 3px; 

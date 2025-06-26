@@ -48,3 +48,8 @@ function peekaboo() {
     ad.classList.remove('hide');
     ad.classList.add('reappear');
 }
+
+yanAdvertisement.addEventListener('click', goAd);
+function goAd() {
+    window.location = "/yanwebsite/html/yanwebsite.html";
+}

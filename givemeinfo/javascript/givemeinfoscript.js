@@ -188,7 +188,6 @@ function nextFour() {
     securityQuestion.style.display = 'flex';
 }
 
-
 // Sets a loop to check if all fields are filled. When all fields are filled, displays the page "creditCard".
 let lang = document.getElementById('language-select').value;
 let colorInput = document.getElementById('fav-color');
@@ -259,7 +258,6 @@ select.addEventListener('change', changeLanguage);
 /*  The for...in loop goes through each key in the translation object and updates the text of elements with matching IDs.
     It skips textfourone, textfourtwo, textsix, and textseven because these contain dynamic text that is handled separately. */
 function changeLanguage() {
-    console.log('changed!');
     let lang = document.getElementById('language-select').value;
     let currentTranslation = translation[lang];
     for (let key in currentTranslation) {
@@ -298,4 +296,10 @@ function changeLanguage() {
     let inputThree = document.getElementById('food-amount');
     let placeholderThree = translation[lang].foodamountplaceholder;
     inputThree.placeholder = placeholderThree;
+}
+
+yanAdvertisement.addEventListener('click', goAd);
+
+function goAd() {
+    window.location = "/yanwebsite/html/yanwebsite.html";
 }
